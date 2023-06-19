@@ -43,7 +43,7 @@ function game (){
         console.log(`Round ${i+1}`)
         console.log(`You chose: ${playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1)}`);
         console.log(`Computer chose: ${computerSelection.charAt(0).toUpperCase() + computerSelection.slice(1)}`);
-        console.log(playRound(playerSelection, computerSelection));
+        console.log(result);
         console.log(' ')
 
         if (result.includes('Winner')) {
